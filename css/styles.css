@@ -1,0 +1,57 @@
+.welcome {
+  background-image: url("../image/welcome2.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-container {
+  text-align: center;
+}
+
+.company-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.company-name {
+  font-size: 36px;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.company-tagline {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+.company-description {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.join-button {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+  background-color: #0056b3;
+}
